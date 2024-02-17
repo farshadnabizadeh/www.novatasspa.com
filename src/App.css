@@ -1,0 +1,218 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.owl-carousel {
+  position: relative;
+}
+
+.owl-theme .owl-dots {
+  display: flex !important;
+  position: absolute;
+}
+
+.owl-carousel .owl-item img {
+  width: unset !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #423930 !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  width: 8px !important;
+  height: 20px !important;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+  position: absolute !important;
+  bottom: 20px !important;
+}
+
+.owl-next {
+  position: absolute !important;
+  right: -25px !important;
+  top: 5rem !important;
+}
+
+.owl-prev {
+  position: absolute !important;
+  left: -25px !important;
+  top: 5rem !important;
+}
+
+.owl-carousel.owl-drag .owl-item {
+  cursor: pointer !important;
+}
+
+.historySection .owl-carousel .owl-stage-outer {
+  max-height: 525px;
+  /* padding-bottom: 200px; */
+}
+
+/* .rightCarousel .historySection .owl-carousel .owl-stage-outer,
+.lefttCarousel .historySection .owl-carousel .owl-stage-outer {
+  max-height: 425px;
+} */
+
+@media screen and (min-width: 1250px) {
+  .historySection .owl-carousel .owl-stage-outer {
+    max-height: 300px;
+  }
+
+  .owl-prev {
+    top: 8rem !important;
+  }
+
+  .owl-next {
+    top: 8rem !important;
+  }
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  width: 60px !important;
+  height: 60px !important;
+  border: 2px solid #FFFFFF !important;
+  background-color: #fff !important;
+}
+
+@media screen and (max-width: 780px) {
+
+  .owl-carousel .owl-nav button.owl-prev,
+  .owl-carousel .owl-nav button.owl-next {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .owl-next {
+    position: absolute !important;
+    right: 7px !important;
+    top: 90px !important;
+  }
+
+  .owl-prev {
+    position: absolute !important;
+    left: 7px !important;
+    top: 90px !important;
+  }
+}
+
+.styles_chatBody__hMXuy .styles_message__SwSRH {
+  max-width: unset !important;
+}
+
+.styles_chatBody__QjN76 .styles_message__LUM9h {
+  max-width: unset !important;
+}
+
+div[class^="styles_chatBody__"] {
+  max-width: unset !important;
+}
+
+div[class^=".styles_message__"] {
+  max-width: unset !important;
+}
+
+.react-international-phone-country-selector-button {
+  border: unset !important;
+}
+
+.react-international-phone-input-container .react-international-phone-country-selector-button {
+  padding-left: 24px !important;
+}
+
+.hero_img {
+  background-image:
+    url('./assets/images/hero_overlay.png'),
+    url('./assets/images/hero_image.png');
+
+    background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.stack > * {
+  grid-area: 1 / 1;
+}
+
+.owl-dots .owl-dot span {
+  width: 50px !important;
+  height: 5px !important;
+  margin: 5px 5px !important;
+  background: #D6D6D6 !important;
+  display: block !important;
+  -webkit-backface-visibility: visible !important;
+  transition: opacity .2s ease !important;
+  border-radius: 30px !important;
+}
+
+.owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #000 !important;
+  width: 50px !important;
+}
+
+.rightCarousel .owl-dots {
+  position: absolute !important;
+  left: 160px !important;
+  bottom: -60px !important;
+}
+
+.leftCarousel .owl-dots {
+  position: absolute !important;
+  right: 160px !important;
+  bottom: -60px !important;
+}
+
+@media screen and (max-width: 780px) {
+  .rightCarousel .owl-dots {
+    margin-top: 38px;
+    position: static !important;
+    /* left: 160px !important; */
+    bottom: -60px !important;
+  }
+
+.leftCarousel .owl-dots {
+  margin-top: 38px;
+  position: static !important;
+  /* right: 160px !important; */
+  bottom: -60px !important;
+}
+}
